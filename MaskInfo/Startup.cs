@@ -29,6 +29,8 @@ namespace MaskInfo
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddHttpClient<MaskService>();
+
+            services.AddScoped<MaskContext>();
             //services.AddControllers();
 
             // ASP.NET Core 3.0 has removed the dependency on JSON.NET and uses it¡¦s own JSON serializer
