@@ -12,7 +12,7 @@ namespace MaskInfo
     public class Program
     {
         /// <summary>
-        /// start
+        /// Program Start
         /// </summary>
         /// <param name="args"></param>
         public static void Main(string[] args)
