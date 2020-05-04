@@ -11,6 +11,10 @@ namespace MaskInfo
 {
     public class Program
     {
+        /// <summary>
+        /// start
+        /// </summary>
+        /// <param name="args"></param>
         public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
